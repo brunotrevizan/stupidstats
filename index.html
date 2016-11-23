@@ -1,14 +1,86 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>AngularQuickstart</title>
-  <base href="/">
+<!DOCTYPE html>
+<html lang="en">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href="styles.d41d8cd98f00b204e9800998ecf8427e.bundle.css" rel="stylesheet"></head>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>StupidStats</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+</head>
+
 <body>
-  <app-root>Loading...</app-root>
-<script type="text/javascript" src="inline.d41d8cd98f00b204e980.bundle.js"></script><script type="text/javascript" src="styles.b2328beb0372c051d06d.bundle.js"></script><script type="text/javascript" src="main.bee46bee34ffd16314af.bundle.js"></script></body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">StupidStats</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <!-- 
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <my-app>Loading...</my-app>
+                <ul class="list-unstyled">
+                    <li>Stupid Stats</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
