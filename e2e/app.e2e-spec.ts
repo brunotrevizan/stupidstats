@@ -1,10 +1,10 @@
-import { AngularQuickstartPage } from './app.po';
+import { StupidstatsPage } from './app.po';
 
-describe('angular-quickstart App', function() {
-  let page: AngularQuickstartPage;
+describe('stupidstats App', function() {
+  let page: StupidstatsPage;
 
   beforeEach(() => {
-    page = new AngularQuickstartPage();
+    page = new StupidstatsPage();
   });
 
   it('should display message saying app works', () => {
