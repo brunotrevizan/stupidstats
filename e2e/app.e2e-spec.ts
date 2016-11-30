@@ -1,10 +1,10 @@
-import { StupidstatsPage } from './app.po';
+import { StatsPage } from './app.po';
 
-describe('stupidstats App', function() {
-  let page: StupidstatsPage;
+describe('stats App', function() {
+  let page: StatsPage;
 
   beforeEach(() => {
-    page = new StupidstatsPage();
+    page = new StatsPage();
   });
 
   it('should display message saying app works', () => {

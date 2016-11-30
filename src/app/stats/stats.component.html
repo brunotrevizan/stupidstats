@@ -1,0 +1,87 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 flex-xs-middle" style="text-align: center;">
+      <ul class="list-group">
+        <li class="list-group-item">
+			<app-counter-item name="Poops Today"
+				idPanel="poop"
+				[isDecimal]="true"            
+				counter={{counterPoopPeople}}
+				valueByMilissecond={{valuePoopingPeopleByMilissecond}}
+				valueMilissecond={{poopingPeopleByMilissecond}}
+				description="Assuming you have to poop at leat once a day, we have to do the math, we take the world population and divide:<br>
+				6,600,000,000/365 x24 x3600 = <b>209</b> persons per second.">
+			 </app-counter-item>		  
+        </li>
+        <li class="list-group-item">
+			<app-counter-item name="Porn Videos Made Today"
+				idPanel="pornVideos"
+				[isDecimal]="false"
+				counter={{counterPornVideo}}
+				valueByMilissecond={{valuePornVideoByMilissecond}}
+				valueMilissecond={{pornVideoByMilissecond}}
+				description="In the US, every 39 minutes a new porn video is made! -> <a target='_blank' href='https://www.webroot.com/us/en/home/resources/tips/digital-family-life/internet-pornography-by-the-numbers'><b>Font</b></a>">
+			</app-counter-item>
+        </li>
+         <li class="list-group-item">
+			<app-counter-item name="Porn Videos Watched Today"
+				idPanel="pornWatched"
+				[isDecimal]="true"
+				counter={{counterWatchingPorn}}
+				valueByMilissecond={{valueWatchingPornMilissecond}}
+				valueMilissecond={{watchingPornMilissecond}}
+				description="Every second 28,258 users are watching pornography on the internet! -> <a target='_blank' href='https://www.webroot.com/us/en/home/resources/tips/digital-family-life/internet-pornography-by-the-numbers'><b>Font</b></a>">
+			</app-counter-item>
+        </li>
+         <li class="list-group-item">
+			<app-counter-item name="CellPhones Trashed Today"
+				idPanel="phonesTrashed"
+				[isDecimal]="true"
+				counter={{counterTrashCell}}
+				valueByMilissecond={{valueTrashCellByMilissecond}}
+				valueMilissecond={{trashCellByMilissecond}}
+				description="Every minute 237 cellphones are trashed! -> <a target='_blank' href='https://www.amazon.com/Minute-Turtleback-School-Library-Binding/dp/1417789050'><b>Font</b></a>">
+			</app-counter-item>
+        </li>
+         <li class="list-group-item">
+			<app-counter-item name="Pizzas Baked Today"
+				idPanel="pizza"
+				[isDecimal]="true"
+				counter={{counterPizza}}
+				valueByMilissecond={{valuePizzaByMilissecond}}
+				valueMilissecond={{pizzaByMilissecond}}
+				description="In 1 minute, 21000 pizzas are baked! -> <a target='_blank' href='https://www.amazon.com/Minute-Turtleback-School-Library-Binding/dp/1417789050'><b>Font</b></a>">
+			</app-counter-item>
+        </li>
+         <li class="list-group-item">
+			<app-counter-item name="Kgs of Chocolate Made Today"
+				idPanel="chocolate"
+				[isDecimal]="true"
+				counter={{counterChocolate}}
+				valueByMilissecond={{valueChocolateByMilissecond}}
+				valueMilissecond={{chocolateByMilissecond}}
+				description="In 1 minute, 6754 kg of chocolate are made -> <a target='_blank' href='https://www.amazon.com/Minute-Turtleback-School-Library-Binding/dp/1417789050'><b>Font</b></a>">
+			</app-counter-item>
+        </li>
+			<app-counter-item name="Air Inhaled by Blue Whale"
+				idPanel="airWhale"
+				[isDecimal]="true"
+				counter={{counterAirBlueWhale}}
+				valueByMilissecond={{valueAirWhaleByMilissecond}}
+				valueMilissecond={{airWhaleByMilissecond}}
+				description="In 1 minute, 56724L of air are inhaled by a Blue Whale! -> <a target='_blank' href='https://www.amazon.com/Minute-Turtleback-School-Library-Binding/dp/1417789050'><b>Font</b></a>">
+			</app-counter-item>
+         <li class="list-group-item">
+			<app-counter-item name="Sexual Intercourses Today"
+				idPanel="sexualIntercourses"
+				[isDecimal]="true"
+				counter={{counterSexualIntercourse}}
+				valueByMilissecond={{valueSexualIntercourseByMilissecond}}
+				valueMilissecond={{sexualIntercourseByMilissecond}}
+				description="In 1 minute, 79166 people have sex! -> <a target='_blank' href='http://estilo.uol.com.br/comportamento/quiz/2016/11/29/diante-de-uma-proposta-de-sexo-no-primeiro-encontro-quem-e-voce.htm'><b>Font</b></a>">
+			</app-counter-item>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

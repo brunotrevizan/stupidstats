@@ -1,7 +1,7 @@
 {
   "project": {
     "version": "1.0.0-beta.20-4",
-    "name": "stupidstats"
+    "name": "stats"
   },
   "apps": [
     {
@@ -18,14 +18,14 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-		"../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
         "styles.css"
       ],
       "scripts": [
-		"../node_modules/jquery/dist/jquery.js",
-		"../node_modules/tether/dist/js/tether.js",
-		"../node_modules/bootstrap/dist/js/bootstrap.js"
-	  ],
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/tether/dist/js/tether.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
