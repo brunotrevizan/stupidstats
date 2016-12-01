@@ -15,14 +15,13 @@
         (click)="aba = 'about'" href="#">About</a>
     </li>
     <li class="nav-item">
-      <!--a class="nav-link disabled" href="#">Contact us</a-->
       <a class="nav-link" 
         [class.active]="aba == 'contact'"
         (click)="aba = 'contact'" href="#">Contact us</a>
     </li>
   </ul>
 </nav>
-<br><br><br>
+
 <div *ngIf="aba == 'home'">
   <app-stats></app-stats>
 </div>
